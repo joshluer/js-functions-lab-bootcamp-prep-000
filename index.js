@@ -1,3 +1,7 @@
-var date = "June 18th";
+function happyHolidays() {
+  return "Happy Holidays!";
+}  
 
-console.log(`My birthday is ${date}`);
+function happyHolidaysTo(name) {
+  return `${happyHolidays}, ${name}!`;
+}
